@@ -177,6 +177,7 @@ html, body {
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
+    justify-content: center;
 }
 .project {
     max-width: 370px;
@@ -217,4 +218,20 @@ html, body {
 }
 .copyright p + p {
     margin-top: 0.5em;
+}
+@media (max-width: 480px) {
+    .title-1 {
+        font-size: 40px;
+    }
+  }
+@media (min-width: 2560px) {
+    .projects {
+        flex-wrap: nowrap;
+    }
+    .nav-list {
+        font-size: 40px;
+    }
+    .nav-logo {
+        font-size: 40px;
+    }
 }
